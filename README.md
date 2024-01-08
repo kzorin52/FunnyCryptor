@@ -5,5 +5,5 @@ This software's main purpose is NOT to be used maliciously, or on any system tha
 By using this software, you automatically agree to the above.
 
 ## License
-[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](/LICENSE)<br>
+[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](/LICENSE.txt)<br>
 This project is licensed under the MIT License - see the [LICENSE](/LICENSE.txt) file for details
