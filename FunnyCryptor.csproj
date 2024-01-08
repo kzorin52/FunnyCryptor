@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net8.0-windows</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<PublishAot>true</PublishAot>
+		<OptimizationPreference>Speed</OptimizationPreference>
+		<InvariantGlobalization>true</InvariantGlobalization>
+		<LangVersion>preview</LangVersion>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Compile Remove="FunnyDecryptor\**" />
+		<Compile Remove="KeyGenerator\**" />
+		<EmbeddedResource Remove="FunnyDecryptor\**" />
+		<EmbeddedResource Remove="KeyGenerator\**" />
+		<None Remove="FunnyDecryptor\**" />
+		<None Remove="KeyGenerator\**" />
+	</ItemGroup>
+
+</Project>
